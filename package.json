@@ -1,0 +1,29 @@
+{
+  "name": "testcerts",
+  "version": "1.0.0",
+  "description": "node test certs with fastify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roberto-slopez/nodetestcerts.git"
+  },
+  "author": "esanchez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roberto-slopez/nodetestcerts/issues"
+  },
+  "homepage": "https://github.com/roberto-slopez/nodetestcerts#readme",
+  "dependencies": {
+    "fastify": "3.22.0",
+    "cors": "2.8.5",
+    "dotenv": "8.2.0",
+    "fastify-cors": "5.2.0",
+    "fastify-helmet": "5.2.0",
+    "fastify-rate-limit": "5.0.1",
+    "socket.io": "3.0.3",
+    "uuid": "8.3.2"
+  }
+}
