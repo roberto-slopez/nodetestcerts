@@ -74,7 +74,6 @@ fastify.ready(err => {
     }
 
     fastify.log.info(`server ready init socket.io`);
-    //IO.narrative(fastify, io);
 });
 
 start();
